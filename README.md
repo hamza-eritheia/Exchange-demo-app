@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Ruby version - ruby 2.6.8p205
 
-Things you may want to cover:
+### Database creation
+  Run the following commands for database creation:
+    `rake db:setup`
+    `rake db:migrate`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
+### Database initialization
+  - You can run the rake task of `collect_exchange_rate:monthly` and fill the database with the exchange rates of current month.
 
 * Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
