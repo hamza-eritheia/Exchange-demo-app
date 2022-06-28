@@ -1,8 +1,8 @@
 # README
 
 ## Ruby version
-ruby 2.6.8p205
-rails 6.1.6
+  - ruby 2.6.8p205
+  - rails 6.1.6
 ## Local Setup
 
 ### Install dependencies:

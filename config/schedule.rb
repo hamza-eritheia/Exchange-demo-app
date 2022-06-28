@@ -19,7 +19,7 @@
 #   runner "AnotherModel.prune_old_records"
 # end
 
-every 1.minute do
+every 1.day do
   runner 'CollectorJob.perform'
 end
 
